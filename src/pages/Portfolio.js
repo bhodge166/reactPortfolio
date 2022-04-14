@@ -1,13 +1,9 @@
 import React from "react";
-
-import  from "../components/";
-import  from "../components/";
+import projects from "../utils/projects";
+import Cards from "../components/Cards";
 
 const Portfolio = () => {
- 
-  return (
-    
-  );
+  return <Cards projects={projects} />;
 };
 
 export default Portfolio;

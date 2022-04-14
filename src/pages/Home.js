@@ -1,27 +1,8 @@
-// import React from 'react';
+import React from "react";
+import About from "../components/About";
 
-//   return (
-//     <main>
-//       <div className="flex-row justify-center">
-//         <div
-//           className="col-12 col-md-10 mb-3 p-3"
-//           style={{ border: '1px dotted #1a1a1a' }}
-//         >
-//           <ThoughtForm />
-//         </div>
-//         <div className="col-12 col-md-8 mb-3">
-//           {loading ? (
-//             <div>Loading...</div>
-//           ) : (
-//             <ThoughtList
-//               thoughts={thoughts}
-//               title="Some Feed for Thought(s)..."
-//             />
-//           )}
-//         </div>
-//       </div>
-//     </main>
-//   );
-// };
+const Home = () => {
+  return <About />;
+};
 
-// export default Home;
+export default Home;
