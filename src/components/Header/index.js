@@ -1,14 +1,38 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { LinkContainer } from "react-router-bootstrap";
+import { Nav } from "react-bootstrap";
+import { Navbar } from "react-bootstrap";
+import { Routes } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className="bg-primary text-light mb-4 py-3 flex-row align-center">
-      <div className="container flex-row justify-space-between-lg justify-center align-center">
-        <Link className="text-light" to="/">
-          <h1 className="m-0">Tech Thoughts</h1>
-        </Link>
-        <p className="m-0">Get into the mind of a programmer.</p>
+    <header>
+      <div className="App container py-3">
+        <Navbar collapseOnSelect bg="light" expand="md" className="mb-3">
+          <LinkContainer to="/">
+            <Navbar.Brand className="font-weight-bold text-muted">
+              Brad Hodge
+            </Navbar.Brand>
+          </LinkContainer>
+          <Navbar.Toggle />
+          <Navbar.Collapse className="justify-content-end">
+            <Nav activeKey={window.location.pathname}>
+              <LinkContainer to="/">
+                <Nav.Link>About me</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/portfolio">
+                <Nav.Link>Portfolio</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/contact">
+                <Nav.Link>Contact me</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/resume">
+                <Nav.Link>Resume</Nav.Link>
+              </LinkContainer>
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
+        <Routes />
       </div>
     </header>
   );

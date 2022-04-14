@@ -1,31 +1,25 @@
-import React from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
+import React from "react";
+import { BsGithub } from "react-icons/bs";
+import { AiOutlineMail } from "react-icons/ai";
+import { BsLinkedin } from "react-icons/bs";
 
 const Footer = () => {
-  const location = useLocation();
-  const navigate = useNavigate();
   return (
-    <footer className="w-100 mt-auto bg-secondary p-4">
-      <div className="container text-center mb-5">
-        {location.pathname !== '/' && (
-          <button
-            className="btn btn-dark mb-3"
-            onClick={() => navigate(-1)}
-          >
-            &larr; Go Back
-          </button>
-        )}
+    <footer className="mt-auto bg-light p-4">
+      <div className="container text-center mb-2">
         <h4>
-          Made with{' '}
-          <span
-            className="emoji"
-            role="img"
-            aria-label="heart"
-            aria-hidden="false"
+          <a className="m-1" href="https://github.com/bhodge166">
+            <BsGithub />
+          </a>
+          <a
+            className="m-1"
+            href="https://www.linkedin.com/in/bradley-hodge-70606022b/"
           >
-            ❤️
-          </span>{' '}
-          by the Tech Thoughts team.
+            <BsLinkedin />
+          </a>
+          <a className="m-1" href="mailto:bhodge166@gmail.com">
+            <AiOutlineMail />
+          </a>
         </h4>
       </div>
     </footer>
