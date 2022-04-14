@@ -18,13 +18,13 @@ const Header = () => {
           <Navbar.Collapse className="justify-content-end">
             <Nav activeKey={window.location.pathname}>
               <LinkContainer to="/">
-                <Nav.Link>About me</Nav.Link>
+                <Nav.Link>About</Nav.Link>
               </LinkContainer>
               <LinkContainer to="/portfolio">
                 <Nav.Link>Portfolio</Nav.Link>
               </LinkContainer>
               <LinkContainer to="/contact">
-                <Nav.Link>Contact me</Nav.Link>
+                <Nav.Link>Contact</Nav.Link>
               </LinkContainer>
               <LinkContainer to="/resume">
                 <Nav.Link>Resume</Nav.Link>
