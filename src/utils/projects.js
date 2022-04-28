@@ -3,8 +3,16 @@ import marvel from "../images/Project1Comics.png";
 import weather from "../images/Homework6_Screenshot.png";
 import planner from "../images/Homework5_Screenshot.png";
 import texteditor from "../images/textEditor.PNG";
+import eldenMarket from "../images/eldenmarket.png";
 
 const projects = [
+  {
+    img: eldenMarket,
+    title: "Elden Market",
+    text: "A React and Graphql based e-commerce application based on the game Elden Ring.",
+    deployed: "https://eldenmarket.herokuapp.com/",
+    code: "https://github.com/bhodge166/eldenMarket",
+  },
   {
     img: lasso,
     title: "Lasso Sports Page",
