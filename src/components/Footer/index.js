@@ -5,19 +5,19 @@ import { BsLinkedin } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <footer className="mt-auto bg-light p-4">
+    <footer className="mt-auto bg-light p-4 container">
       <div className="container text-center mb-2">
         <h4>
-          <a className="m-1" href="https://github.com/bhodge166">
+          <a className="m-2" href="https://github.com/bhodge166">
             <BsGithub />
           </a>
           <a
-            className="m-1"
+            className="m-2"
             href="https://www.linkedin.com/in/bradley-hodge-70606022b/"
           >
             <BsLinkedin />
           </a>
-          <a className="m-1" href="mailto:bhodge166@gmail.com">
+          <a className="m-2" href="mailto:bhodge166@gmail.com">
             <AiOutlineMail />
           </a>
         </h4>
