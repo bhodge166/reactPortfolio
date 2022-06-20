@@ -7,10 +7,19 @@ import Footer from "./components/Footer";
 import Portfolio from "./pages/Portfolio";
 import Skills from "./pages/Skills";
 
+const styles = {
+  bg: {
+    background: "#BEE3DB",
+  },
+};
+
 function App() {
   return (
     <Router>
-      <div className="flex-column justify-flex-start min-100-vh">
+      <div
+        className="flex-column justify-flex-start min-100-vh"
+        style={styles.bg}
+      >
         <Header />
         <div className="container">
           <Routes>

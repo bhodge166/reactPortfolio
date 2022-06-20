@@ -1,11 +1,11 @@
 import React from "react";
-import mypicture from "../../images/Me.png";
+import bitmoji from "../../images/hi.png";
 import { Container, Row } from "react-bootstrap";
 
 const styles = {
   img: {
-    height: "250px",
-    width: "250px",
+    height: "400px",
+    width: "400px",
   },
   div: {
     position: "relative",
@@ -14,28 +14,30 @@ const styles = {
     position: "absolute",
     padding: "2rem",
   },
+  text: {
+    color: "#555B6E",
+  },
+  header: {
+    color: "#FAF9F9",
+  },
 };
 
 const About = () => {
   return (
     <main>
-      <h2 className="my-4">About me</h2>
+      <h2 className="my-4" style={styles.header}>
+        About me
+      </h2>
       <Container>
         <Row>
-          <div className="col-xs-12 col-sm-6 cold-md-8 col-centered">
-            <div style={styles.div}>
-              <img
-                src={mypicture}
-                alt="me"
-                className="img-thumbnail"
-                style={styles.img}
-              />
-              <span style={styles.span}>
-                Hello and welcome to my portfolio. My name is Brad and I am an
-                aspiring web developer. I am currently learning to develop
-                through a coding bootcamp
-              </span>
-            </div>
+          <div className="col-xs-12 col-sm-4" style={styles.text}>
+            <p>
+              Hello and welcome to my portfolio. My name is Brad and I am full
+              stack web developer specializing in JavaScript.
+            </p>
+          </div>
+          <div className="col-xs-12 col-sm-4">
+            <img src={bitmoji} style={styles.img} />
           </div>
         </Row>
       </Container>
