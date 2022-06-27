@@ -3,7 +3,9 @@ import { Card, Container, Row } from "react-bootstrap";
 
 const styles = {
   text: {
-    color: "#FAF9F9",
+    color: "#555B6E",
+    marginBottom: "1rem",
+    marginTop: "2rem",
   },
   card: {
     background: "#FAF9F9",

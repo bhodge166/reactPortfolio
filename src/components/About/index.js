@@ -18,7 +18,9 @@ const styles = {
     color: "#555B6E",
   },
   header: {
-    color: "#FAF9F9",
+    color: "#555B6E",
+    marginBottom: "1rem",
+    marginTop: "2rem",
   },
 };
 
@@ -30,13 +32,13 @@ const About = () => {
       </h2>
       <Container>
         <Row>
-          <div className="col-xs-12 col-sm-4" style={styles.text}>
+          <div className="col-xs-12 col-sm-6" style={styles.text}>
             <p>
               Hello and welcome to my portfolio. My name is Brad and I am full
               stack web developer specializing in JavaScript.
             </p>
           </div>
-          <div className="col-xs-12 col-sm-4">
+          <div className="col-xs-12 col-sm-6">
             <img src={bitmoji} style={styles.img} />
           </div>
         </Row>

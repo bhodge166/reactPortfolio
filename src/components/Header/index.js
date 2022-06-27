@@ -29,7 +29,7 @@ const Header = () => {
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
             <Nav activeKey={window.location.pathname}>
-              <LinkContainer style={styles.text} to="/">
+              <LinkContainer style={styles.text} to="/about">
                 <Nav.Link>About</Nav.Link>
               </LinkContainer>
               <LinkContainer style={styles.text} to="/portfolio">

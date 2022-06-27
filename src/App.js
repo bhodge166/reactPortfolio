@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Portfolio from "./pages/Portfolio";
 import Skills from "./pages/Skills";
+import AboutMe from "./pages/AboutMe";
 
 const styles = {
   bg: {
@@ -24,6 +25,7 @@ function App() {
         <div className="container">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/about" element={<AboutMe />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/resume" element={<Skills />} />
           </Routes>

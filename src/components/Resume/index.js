@@ -2,7 +2,9 @@ import React from "react";
 
 const styles = {
   h: {
-    color: "#FAF9F9",
+    color: "#555B6E",
+    marginBottom: "1rem",
+    marginTop: "2rem",
   },
   text: {
     color: "#555B6E",
@@ -22,6 +24,8 @@ const Resume = () => {
         <li>NodeJS</li>
         <li>Express</li>
         <li>GraphQL</li>
+        <li>TypeScript</li>
+        <li>C#</li>
       </ul>
       <h2 style={styles.h}>Resume</h2>
       <p style={styles.text}>Please see the link below for my resume</p>
