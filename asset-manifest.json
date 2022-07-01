@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/hodgePortfolio/static/css/main.4e7541ff.css",
+    "main.js": "/hodgePortfolio/static/js/main.b49a9fd0.js",
+    "static/js/787.1ed0c42c.chunk.js": "/hodgePortfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/eldenmarket.png": "/hodgePortfolio/static/media/eldenmarket.a5cdb1033ad7ca718221.png",
+    "static/media/Project1Comics.png": "/hodgePortfolio/static/media/Project1Comics.f192883f868d046299d8.png",
+    "static/media/lassoSportspage.PNG": "/hodgePortfolio/static/media/lassoSportspage.7237c77e5f334a03ed89.PNG",
+    "static/media/bitmoji.png": "/hodgePortfolio/static/media/bitmoji.30c3ce67ca3757a06920.png",
+    "static/media/Homework6_Screenshot.png": "/hodgePortfolio/static/media/Homework6_Screenshot.07998ce8d5f8c59b3fcd.png",
+    "static/media/Homework5_Screenshot.png": "/hodgePortfolio/static/media/Homework5_Screenshot.6eb31329e35aa7ec9c8f.png",
+    "static/media/progimg2.png": "/hodgePortfolio/static/media/progimg2.245d06d88507a32467f2.png",
+    "static/media/textEditor.PNG": "/hodgePortfolio/static/media/textEditor.cb6187c9feb6ac0e1521.PNG",
+    "index.html": "/hodgePortfolio/index.html",
+    "main.4e7541ff.css.map": "/hodgePortfolio/static/css/main.4e7541ff.css.map",
+    "main.b49a9fd0.js.map": "/hodgePortfolio/static/js/main.b49a9fd0.js.map",
+    "787.1ed0c42c.chunk.js.map": "/hodgePortfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e7541ff.css",
+    "static/js/main.b49a9fd0.js"
+  ]
+}
