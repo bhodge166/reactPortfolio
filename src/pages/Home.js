@@ -1,12 +1,14 @@
 import React from "react";
-import About from "../components/About";
+import AboutMe from "./AboutMe";
 import Portfolio from "./Portfolio";
 import Skills from "./Skills";
+import Welcome from "./Welcome";
 
 const Home = () => {
   return (
     <div>
-      <About />
+      <Welcome />
+      <AboutMe />
       <Portfolio />
       <Skills />
     </div>

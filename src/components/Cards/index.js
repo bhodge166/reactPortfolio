@@ -3,29 +3,32 @@ import { Card, Container, Row } from "react-bootstrap";
 
 const styles = {
   text: {
-    color: "#555B6E",
+    color: "black",
     marginBottom: "1rem",
     marginTop: "2rem",
   },
   card: {
     background: "#FAF9F9",
     width: "18rem",
-    color: "#89B0AE",
+    color: "#555B6E",
   },
   cardImage: {
     objectFit: "cover",
     width: "100%",
   },
   titleText: {
-    color: "#555B6E",
+    color: "black",
+  },
+  spacing: {
+    marginBottom: "4rem",
   },
 };
 
 const Cards = ({ projects }) => {
   return (
-    <main>
-      <h2 style={styles.text}>Projects</h2>
+    <div style={styles.spacing}>
       <Container>
+        <h1 style={styles.text}>Projects</h1>
         <Row>
           {projects.map((project) => (
             <Card className="m-2 p-0" style={styles.card}>
@@ -39,14 +42,18 @@ const Cards = ({ projects }) => {
                   {project.title}
                 </Card.Title>
                 <Card.Text>{project.text}</Card.Text>
-                <Card.Link href={project.deployed}>Visit Site</Card.Link>
-                <Card.Link href={project.code}>See Code</Card.Link>
+                <Card.Link style={styles.titleText} href={project.deployed}>
+                  Visit Site
+                </Card.Link>
+                <Card.Link style={styles.titleText} href={project.code}>
+                  See Code
+                </Card.Link>
               </Card.Body>
             </Card>
           ))}
         </Row>
       </Container>
-    </main>
+    </div>
   );
 };
 

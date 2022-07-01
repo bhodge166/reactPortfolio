@@ -12,6 +12,9 @@ const styles = {
   bg: {
     background: "#BEE3DB",
   },
+  spacing: {
+    marginTop: "4rem",
+  },
 };
 
 function App() {
@@ -22,7 +25,7 @@ function App() {
         style={styles.bg}
       >
         <Header />
-        <div className="container">
+        <div className="container" style={styles.spacing}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<AboutMe />} />

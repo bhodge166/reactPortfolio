@@ -1,8 +1,8 @@
 import React from "react";
 import Resume from "../components/Resume";
 
-const Contact = () => {
+const Skills = () => {
   return <Resume />;
 };
 
-export default Contact;
+export default Skills;
