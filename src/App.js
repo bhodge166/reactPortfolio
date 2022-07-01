@@ -27,7 +27,7 @@ function App() {
         <Header />
         <div className="container" style={styles.spacing}>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/hodgePortfolio" element={<Home />} />
             <Route path="/about" element={<AboutMe />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/resume" element={<Skills />} />

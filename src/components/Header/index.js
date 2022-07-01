@@ -24,13 +24,13 @@ const Header = () => {
           className="mb-3 px-3"
           fixed="top"
         >
-          <LinkContainer style={styles.text} to="/">
+          <LinkContainer style={styles.text} to="/hodgePortfolio">
             <Navbar.Brand className="font-weight-bold">Brad Hodge</Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
             <Nav activeKey={window.location.pathname}>
-              <LinkContainer style={styles.text} to="/">
+              <LinkContainer style={styles.text} to="/hodgePortfolio">
                 <Nav.Link>Home</Nav.Link>
               </LinkContainer>
               <LinkContainer style={styles.text} to="/about">
