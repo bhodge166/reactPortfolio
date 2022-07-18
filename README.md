@@ -25,7 +25,7 @@ To install necessary dependencies, run the following command: npm i
 
 ## Usage
 
-Visit site at [link](https://hodgeresume.herokuapp.com/)
+Visit site at [link](https://bhodge166.github.io/hodgePortfolio/)
 
 ## Contributing
 
