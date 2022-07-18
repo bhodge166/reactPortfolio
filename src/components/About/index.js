@@ -8,8 +8,8 @@ import { SiMysql, SiMongodb, SiGraphql } from "react-icons/si";
 
 const styles = {
   img: {
-    height: "400px",
-    width: "400px",
+    maxHeight: "90%",
+    maxWidth: "90%",
     margin: "auto",
   },
   text: {
