@@ -21,7 +21,7 @@ const Resume = () => {
       <h1 style={styles.h}>Resume</h1>
       <a
         style={styles.text}
-        href="https://drive.google.com/file/d/10tWFsz29AyejcMITf8ZW5NrpuM-fYEQV/view?usp=sharing"
+        href="https://drive.google.com/file/d/1xnHlgcl_E_8L54ad2GoFupFjQ2GN_iEx/view?usp=sharing"
       >
         Please click here for a copy of my resume
       </a>
