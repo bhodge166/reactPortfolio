@@ -4,8 +4,9 @@ import { Card, Container, Row } from "react-bootstrap";
 const styles = {
   text: {
     color: "black",
-    marginBottom: "1rem",
+    marginBottom: "2rem",
     marginTop: "2rem",
+    fontFamily: "'Fredoka', sans-serif",
   },
   card: {
     background: "#FAF9F9",
@@ -18,6 +19,7 @@ const styles = {
   },
   titleText: {
     color: "black",
+    fontFamily: "'Fredoka', sans-serif",
   },
   spacing: {
     marginBottom: "4rem",
@@ -41,7 +43,7 @@ const Cards = ({ projects }) => {
                 <Card.Title style={styles.titleText} className="py-1">
                   {project.title}
                 </Card.Title>
-                <Card.Text>{project.text}</Card.Text>
+                <Card.Text style={styles.titleText}>{project.text}</Card.Text>
                 <Card.Link style={styles.titleText} href={project.deployed}>
                   Visit Site
                 </Card.Link>

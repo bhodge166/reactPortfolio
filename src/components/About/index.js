@@ -15,11 +15,13 @@ const styles = {
   text: {
     color: "#555B6E",
     fontSize: "1.5rem",
+    fontFamily: "'Fredoka', sans-serif",
   },
   header: {
     color: "black",
-    marginBottom: "1rem",
+    marginBottom: "2rem",
     marginTop: "2rem",
+    fontFamily: "'Fredoka', sans-serif",
   },
   devTools: {
     borderStyle: "solid",
@@ -30,6 +32,9 @@ const styles = {
   },
   spacing: {
     marginBottom: "4rem",
+  },
+  inline: {
+    display: "inline-block",
   },
 };
 
@@ -91,34 +96,34 @@ const About = () => {
       </Container>
       <h1 style={styles.header}>Developer Tools</h1>
       <OverlayTrigger placement="top" overlay={renderJsTooltip}>
-        <span>
+        <div style={styles.inline}>
           <DiJsBadge className="m-2" style={styles.devTools} />
-        </span>
+        </div>
       </OverlayTrigger>
       <OverlayTrigger placement="top" overlay={renderNodeTooltip}>
-        <span>
+        <div style={styles.inline}>
           <DiNodejsSmall className="m-2" style={styles.devTools} />
-        </span>
+        </div>
       </OverlayTrigger>
       <OverlayTrigger placement="top" overlay={renderReactTooltip}>
-        <span>
+        <div style={styles.inline}>
           <DiReact className="m-2" style={styles.devTools} />
-        </span>
+        </div>
       </OverlayTrigger>
       <OverlayTrigger placement="top" overlay={renderMySqlTooltip}>
-        <span>
+        <div style={styles.inline}>
           <SiMysql className="m-2" style={styles.devTools} />
-        </span>
+        </div>
       </OverlayTrigger>
       <OverlayTrigger placement="top" overlay={renderMongoTooltip}>
-        <span>
+        <div style={styles.inline}>
           <SiMongodb className="m-2" style={styles.devTools} />
-        </span>
+        </div>
       </OverlayTrigger>
       <OverlayTrigger placement="top" overlay={renderGraphqlTooltip}>
-        <span>
+        <div style={styles.inline}>
           <SiGraphql className="m-2" style={styles.devTools} />
-        </span>
+        </div>
       </OverlayTrigger>
     </div>
   );

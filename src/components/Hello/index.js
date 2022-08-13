@@ -17,11 +17,13 @@ const styles = {
   text: {
     color: "#555B6E",
     fontSize: "1.5rem",
+    fontFamily: "'Fredoka', sans-serif",
   },
   header: {
     color: "black",
-    marginBottom: "1rem",
+    marginBottom: "2rem",
     marginTop: "2rem",
+    fontFamily: "'Fredoka', sans-serif",
   },
   spacing: {
     marginBottom: "4rem",

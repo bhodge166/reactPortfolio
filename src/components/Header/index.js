@@ -10,6 +10,7 @@ const styles = {
   },
   text: {
     color: "#FAF9F9",
+    fontFamily: "'Fredoka', sans-serif",
   },
 };
 
