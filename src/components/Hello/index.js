@@ -4,8 +4,8 @@ import { Container, Row } from "react-bootstrap";
 
 const styles = {
   img: {
-    height: "600px",
-    width: "600px",
+    maxHeight: "100%",
+    maxWidth: "100%",
   },
   div: {
     position: "relative",
