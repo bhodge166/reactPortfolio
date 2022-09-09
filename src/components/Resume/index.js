@@ -23,7 +23,7 @@ const Resume = () => {
       <h1 style={styles.h}>Resume</h1>
       <a
         style={styles.text}
-        href="https://drive.google.com/file/d/1yJ1bNRoPqYjh8lgsaC1vvAW7M_cf8d4z/view?usp=sharing"
+        href="https://drive.google.com/file/d/10vHs-6tQl5vvZ267G2KXXeUSsND8nkYQ/view?usp=sharing"
       >
         Please click here for a copy of my resume
       </a>
