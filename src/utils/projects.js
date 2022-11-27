@@ -35,13 +35,6 @@ const projects = [
     code: "https://github.com/bhodge166/WeatherApp",
   },
   {
-    img: texteditor,
-    title: "Text Editor",
-    text: "A JavaScript text editing application created using webpack and IndexedDB",
-    deployed: "https://fast-refuge-59524.herokuapp.com/",
-    code: "https://github.com/bhodge166/textEditor",
-  },
-  {
     img: planner,
     title: "Day-Planner",
     text: "A simple JavaScript application that utilizes local storage to allow the user to schedule their day",
