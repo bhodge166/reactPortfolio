@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hodgePortfolio/static/css/main.4e7541ff.css",
-    "main.js": "/hodgePortfolio/static/js/main.bf51be07.js",
+    "main.js": "/hodgePortfolio/static/js/main.bd19cc46.js",
     "static/js/787.1ed0c42c.chunk.js": "/hodgePortfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/eldenmarket.png": "/hodgePortfolio/static/media/eldenmarket.a5cdb1033ad7ca718221.png",
     "static/media/Project1Comics.png": "/hodgePortfolio/static/media/Project1Comics.f192883f868d046299d8.png",
@@ -13,11 +13,11 @@
     "static/media/textEditor.PNG": "/hodgePortfolio/static/media/textEditor.cb6187c9feb6ac0e1521.PNG",
     "index.html": "/hodgePortfolio/index.html",
     "main.4e7541ff.css.map": "/hodgePortfolio/static/css/main.4e7541ff.css.map",
-    "main.bf51be07.js.map": "/hodgePortfolio/static/js/main.bf51be07.js.map",
+    "main.bd19cc46.js.map": "/hodgePortfolio/static/js/main.bd19cc46.js.map",
     "787.1ed0c42c.chunk.js.map": "/hodgePortfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e7541ff.css",
-    "static/js/main.bf51be07.js"
+    "static/js/main.bd19cc46.js"
   ]
 }
